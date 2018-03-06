@@ -19,3 +19,8 @@ function addElementToEndOfArray(array, element) {
   oldArray = [...array, element]
   return oldArray
 }
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
